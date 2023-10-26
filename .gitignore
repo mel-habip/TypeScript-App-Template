@@ -73,9 +73,10 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
+# .env 
+# allowing it since this is a template
 .env.development.local
-.env.test.local
+.env.test.local /
 .env.production.local
 .env.local
 

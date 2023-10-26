@@ -1,0 +1,25 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "shared-types/*": ["../shared-types/*"]
+    }
+  },
+  "include": [
+    "src",
+    "shared-types/*",
+    "../shared-types/*"
+  ],
+  "lib": [
+    "es2015"
+  ]
+}
